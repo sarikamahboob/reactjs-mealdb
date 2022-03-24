@@ -1,0 +1,30 @@
+.meals {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.card-meal {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.cart-meal {
+  background-color: rgb(228, 238, 175);
+  border-radius: 20px;
+  margin-right: 100px;
+  padding: 40px;
+}
+
+.cart-meal h1 {
+  color: maroon;
+}
+
+.all-orders li {
+  color: rgb(23, 99, 4);
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}

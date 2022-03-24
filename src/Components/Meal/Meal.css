@@ -1,0 +1,41 @@
+.single-meal {
+  background-color: rgb(255, 238, 182);
+  padding: 30px;
+  border-radius: 20px;
+  width: 420px;
+  text-align: center;
+}
+
+.single-meal img {
+  width: 400px;
+  border-radius: 20px;
+}
+
+.single-meal h3 {
+  color: maroon;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.single-meal p {
+  color: rgb(94, 112, 27);
+  font-size: 25px;
+  font-weight: 500;
+}
+
+button {
+  color: maroon;
+  background-color: rgb(228, 238, 175);
+  border: 3px solid rgb(23, 99, 4);
+  padding: 12px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 15px;
+  transition: 0.2s ease-in;
+}
+
+button:hover {
+  color: rgb(228, 238, 175);
+  background-color: maroon;
+  border: 3px solid maroon;
+}
